@@ -1,7 +1,7 @@
 <?php
-require './controllers/ProdutoController.php';
+require './Controllers/ProdutoController.php';
+$pdo = require './Config/db.php';
 
-$pdo = require './config/db.php';
 $controller = new ProdutoController($pdo);
 
 $action = $_GET['action'] ?? 'index';

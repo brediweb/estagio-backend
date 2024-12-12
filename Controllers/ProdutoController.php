@@ -1,7 +1,7 @@
 <?php
 //require_once > include -> é mais adequado para evitar problemas de redefinição ou inclusão múltipla.
-require_once './models/Produto.php';
-require_once './models/Categoria.php';
+require_once './Models/Produto.php';
+require_once './Models/Categoria.php';
 
 class ProdutoController {
     private $produtoModel;
