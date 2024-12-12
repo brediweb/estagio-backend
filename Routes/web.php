@@ -25,3 +25,4 @@ switch ($action) {
         $controller->index();
         break;
 }
+
