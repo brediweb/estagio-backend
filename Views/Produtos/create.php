@@ -7,9 +7,11 @@
     <label for="preco">Preço:</label>
     <input type="number" name="preco" step="0.01" required><br>
 
+    <!-- Campo para selecionar a categoria do produto -->
     <label for="categoria_id">Categoria:</label>
     <select name="categoria_id" required>
         <?php foreach ($categorias as $categoria): ?>
+             <!-- Exibe as categorias disponíveis -->
             <option value="<?php echo $categoria['id']; ?>"><?php echo htmlspecialchars($categoria['titulo']); ?></option>
         <?php endforeach; ?>
     </select><br>

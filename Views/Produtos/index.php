@@ -15,6 +15,7 @@
                 <td><?php echo number_format($produto['preco'], 2, ',', '.'); ?></td>
                 <td><?php echo htmlspecialchars($produto['categoria']); ?></td>
                 <td>
+                    <!-- Links para editar e excluir o produto, passando o ID como parâmetro -->
                     <a href="index.php?action=edit&id=<?php echo $produto['id']; ?>">Editar</a> |
                     <a href="index.php?action=delete&id=<?php echo $produto['id']; ?>">Excluir</a>
                 </td>
