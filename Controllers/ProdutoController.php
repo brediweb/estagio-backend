@@ -47,6 +47,7 @@ class ProdutoController {
             $produto = $this->produtoModel->findById($id);
             $categorias = $this->categoriaModel->getAll();
             require '../views/produtos/edit.php';
+            //:)
         }
     }
 
