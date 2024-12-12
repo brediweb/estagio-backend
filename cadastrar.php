@@ -13,6 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') { // Identifica o envio de dados do f
     exit;
 }
 
+//obtem as categorias no banco 
 $queryResult = $pdo->query('SELECT * FROM categorias');
 $categorias = $queryResult->fetchAll(PDO::FETCH_ASSOC);
 ?>
