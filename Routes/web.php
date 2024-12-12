@@ -1,6 +1,6 @@
 <?php
-require './Controllers/ProdutoController.php';
-$pdo = require './Config/db.php';
+require '../Controllers/ProdutoController.php';
+$pdo = require '../Config/db.php';
 
 $controller = new ProdutoController($pdo);
 
