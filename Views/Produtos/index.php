@@ -10,7 +10,10 @@
 
     <h1>Produtos</h1>
 
-    <table border="1">
+
+
+    <!-- Tabela de Produtos -->
+    <table>
         <thead>
             <tr>
                 <th>Nome</th>
